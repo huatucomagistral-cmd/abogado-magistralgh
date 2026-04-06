@@ -50,21 +50,24 @@ export default function Hero() {
           <div className="flex justify-center items-center relative order-1 lg:order-2">
             <div className="absolute inset-0 bg-[var(--color-secondary)]/10 rounded-full blur-[100px] transform scale-110"></div>
             
-            {/* Elegant, professional image presentation with borders */}
-            <div className="relative w-full max-w-[280px] md:max-w-[340px] lg:max-w-[400px] aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl shadow-black/50 border-4 border-[var(--color-secondary)]/50 ring-4 ring-black/10">
-              <Image 
-                src="https://firebasestorage.googleapis.com/v0/b/magistralc.firebasestorage.app/o/abogado-magistral%2Fbtqcum6esmuflwr6kdyj.webp?alt=media&token=d8e0029b-1a53-4b48-b26c-bf061cc86567" 
-                alt="Dr. Melvin Rusbel Huatuco Rojas" 
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-700"
-                sizes="(max-w-width: 768px) 100vw, 50vw"
-                priority
-              />
+            {/* Elegant, professional framed image presentation */}
+            <div className="relative w-full max-w-[240px] md:max-w-[280px] lg:max-w-[320px] bg-white p-3 md:p-4 rounded-2xl shadow-2xl border-2 border-white/50 group">
+              <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden shadow-inner bg-slate-100">
+                <Image 
+                  src="https://firebasestorage.googleapis.com/v0/b/magistralc.firebasestorage.app/o/abogado-magistral%2Fbtqcum6esmuflwr6kdyj.webp?alt=media&token=d8e0029b-1a53-4b48-b26c-bf061cc86567" 
+                  alt="Dr. Melvin Rusbel Huatuco Rojas" 
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, 320px"
+                  priority
+                />
+              </div>
               
-              <div className="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-[#0703a5] via-[#0703a5]/80 to-transparent">
-                <p className="text-white font-serif text-xl sm:text-2xl font-bold mb-1">Dr. Melvin Huatuco</p>
-                <div className="h-1 w-12 bg-[#90b6e5] mb-2 rounded-full"></div>
-                <p className="text-white/90 text-xs sm:text-sm font-medium tracking-wider">Registro C.A.J. N° 4937</p>
+              {/* Information written below the photo directly on the white frame */}
+              <div className="mt-4 md:mt-5 text-center px-2 pb-2">
+                <p className="text-[var(--color-primary)] font-serif text-lg md:text-xl font-bold mb-1 leading-tight">Dr. Melvin Huatuco</p>
+                <div className="mx-auto h-0.5 w-8 bg-[var(--color-primary)]/40 mb-2 rounded-full"></div>
+                <p className="text-slate-500 font-sans text-xs md:text-sm font-semibold tracking-widest uppercase">C.A.J. N° 4937</p>
               </div>
             </div>
           </div>
