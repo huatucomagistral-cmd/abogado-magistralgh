@@ -30,7 +30,7 @@ export default function Experience() {
 
   return (
     <section className="py-24 bg-white" id="experiencia">
-      <div className="container mx-auto px-4 md:px-8">
+      <div className="w-full max-w-6xl mx-auto px-4 md:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
           <div className="order-2 lg:order-1">

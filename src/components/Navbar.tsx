@@ -24,7 +24,7 @@ export default function Navbar() {
           : "bg-[var(--color-primary)] py-4"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
+      <div className="w-full max-w-6xl mx-auto px-4 md:px-8 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <div className="bg-white p-1 rounded-lg shadow-md overflow-hidden flex items-center justify-center">
             <div className="relative w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]">

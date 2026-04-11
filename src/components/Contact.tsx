@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Globe, Scale } from "lucide-react";
 export default function Contact() {
   return (
     <section className="py-24 bg-slate-50" id="contacto">
-      <div className="container mx-auto px-4 md:px-8">
+      <div className="w-full max-w-6xl mx-auto px-4 md:px-8">
         <div className="max-w-5xl mx-auto bg-white rounded-[2.5rem] overflow-hidden shadow-2xl border border-slate-100 flex flex-col md:flex-row">
           
           {/* Left Side: Brand info */}

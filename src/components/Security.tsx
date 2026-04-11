@@ -23,7 +23,7 @@ export default function Security() {
     <section className="py-24 bg-[var(--color-primary)] text-white relative overflow-hidden" id="credibilidad">
       <div className="absolute top-1/2 left-1/4 w-[500px] h-[500px] bg-[var(--color-secondary)]/10 rounded-full blur-[120px] -translate-y-1/2 -translate-x-1/2 mix-blend-screen pointer-events-none"></div>
 
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <div className="w-full max-w-6xl mx-auto px-4 md:px-8 relative z-10">
         
         <div className="flex flex-col md:flex-row justify-between items-center gap-10 mb-20 border-b border-white/10 pb-16">
           <div className="max-w-xl">

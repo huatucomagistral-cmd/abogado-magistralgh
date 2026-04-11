@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background styling effects */}
       <div className="absolute inset-0 bg-[url('https://firebasestorage.googleapis.com/v0/b/magistralc.firebasestorage.app/o/abogado-magistral%2Fbrt3vhdwz10qdkidxtm3.webp?alt=media&token=c2bccb98-0799-4206-89e2-e632b634d21b')] bg-cover bg-center opacity-10 mix-blend-overlay border-none"></div>
 
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <div className="w-full max-w-6xl mx-auto px-4 md:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           <div className="max-w-2xl order-2 lg:order-1 pt-10 lg:pt-0">
@@ -51,7 +51,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-[var(--color-secondary)]/10 rounded-full blur-[100px] transform scale-110"></div>
             
             {/* Elegant, professional framed image presentation */}
-            <div className="relative w-full max-w-[240px] md:max-w-[280px] lg:max-w-[320px] bg-white p-3 md:p-4 rounded-2xl shadow-2xl border-2 border-white/50 group">
+            <div className="relative w-full max-w-[220px] md:max-w-[250px] lg:max-w-[280px] bg-white p-3 md:p-4 rounded-2xl shadow-2xl border-2 border-white/50 group">
               <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden shadow-inner bg-slate-100">
                 <Image 
                   src="https://firebasestorage.googleapis.com/v0/b/magistralc.firebasestorage.app/o/abogado-magistral%2Fbtqcum6esmuflwr6kdyj.webp?alt=media&token=d8e0029b-1a53-4b48-b26c-bf061cc86567" 

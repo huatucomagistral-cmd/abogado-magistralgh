@@ -23,7 +23,7 @@ export default function Specialties() {
     <section className="py-24 bg-slate-50 relative overflow-hidden" id="especialidades">
       <div className="absolute top-0 right-0 w-64 h-64 bg-[var(--color-secondary)]/10 rounded-full blur-3xl -z-10"></div>
       
-      <div className="container mx-auto px-4 md:px-8">
+      <div className="w-full max-w-6xl mx-auto px-4 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex justify-center items-center p-3 bg-[var(--color-secondary)]/20 rounded-full mb-4">
             <Star className="w-6 h-6 text-[var(--color-primary)]" />
